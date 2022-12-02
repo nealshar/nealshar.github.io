@@ -1,0 +1,53 @@
+
+  @font-face {font-family: AllertaStencilRegular; src: url(HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf)}
+@font-face {font-family: Roboto; src: url(KFOiCnqEu92Fr1Mu51QrIzcXLsnzjYk.ttf)}
+@font-face {font-family: NOTO; src: url(-F6pfjtqLzI2JPCgQBnw7HFQei0q1H1hj-sNFQ.otf)}
+
+
+
+#navbar {overflow: hidden;
+  background-color: darkgoldenrod; width: 1400px; margin-left: auto; margin-right: auto;}
+
+#navbar a {float: left;
+  font-size: 16px;
+  color: palegoldenrod;
+  padding: 15px 15px;}
+
+.dropdown .dropbtn { font-size: 16px; 
+  color: black;
+  padding: 15px 15px;
+  background-color: inherit;
+  font-family: inherit;}
+
+#navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: seagreen; font-size: 25px}
+
+.dropdown-content a { color: midnightblue;
+  padding: 12px 16px;
+  display: block;}
+
+.dropdown-content a:hover {
+  background-color: dimgrey;}
+
+.dropdown:hover .dropdown-content {
+  display: block;}
+
+.dropdown { float: left;
+  overflow: hidden;}
+
+.dropdown .dropbutton { font-size: 16px;  
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;}
+
+.dropdown-content {display: none;
+  position: absolute;
+  background-color: slategrey; min-width: 160px;}
+
+
+
+h1 {font-size: 150px; position: absolute; left: 250px; top: 70px; font-family: NOTO}
+#mainbody {width: 1400px; background-color: saddlebrown; margin-right: auto; margin-left: auto; height: 1400px; margin-top: -25px; padding-top: 0px}
+html {background-color: tan;}
+
+
