@@ -1,0 +1,243 @@
+<title>Kamikaze Pilots</title>
+
+<meta name="projectdescription" content="This website that I made for the creative project is about the kamikaze pilots of Japan during WW2.">
+
+<style>
+
+	@font-face {font-family: AllertaStencilRegular; src: url(HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf)}
+@font-face {font-family: Roboto; src: url(KFOiCnqEu92Fr1Mu51QrIzcXLsnzjYk.ttf)}
+@font-face {font-family: NOTO; src: url(-F6pfjtqLzI2JPCgQBnw7HFQei0q1H1hj-sNFQ.otf)}
+
+
+#main {text-align: center; width: 1425px; margin-left: auto; margin-right: auto; text-align: center; background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/5B15/production/_95371332_mryamadawithhiscolleagues.jpg); background-size: cover; height: 550px; margin-top: auto; background-position: top; }
+h1 {font-size: 150px; position: absolute; left: 150px; top: 70px; font-family: NOTO}
+#mainbody {width: 1425px; background-color: saddlebrown; margin-right: auto; margin-left: auto; height: 1400px; margin-top: -25px; padding-top: 0px}
+html {background-color: tan;}
+
+.image-container1 { width: 1297px; height: 300px; position: relative; margin: 10px; cursor: pointer; margin-right: auto; margin-left: auto; left:0px }
+.image-container2 { width: 477px; height: 300px; position: relative; margin: 10px; cursor: pointer; right: -460px; top: 150px; text-align: center;}
+.image-container3 { width: 447px; height: 300px; position: relative; margin: 10px; cursor: pointer; bottom: -110px; left: -20px; text-align: center;}
+.image-container4 { width: 444px; height: 300px; position: relative; margin: 10px; cursor: pointer; left: 950px; bottom: 220px; padding-left: 10px; text-align: center;}
+.image-container1 img { width: 1294px; height: 470px; position:absolute; float: right; border: 4px solid #000000;}
+.image-container2 img {width: 484px; height: 600px; position:absolute; float: right; border: 3px solid #F80C17; }
+.image-container3 img { width: 474px; height: 530px; position:absolute; float: right; border: 3px solid #F80C17;}
+.image-container4 img { width: 450px; height: 530px; position:absolute; float: right; border: 3px solid #F80C17;}
+#image-container {padding: 10px 10px 10px 10px}
+
+.image-caption { width: 100%; height: 100%; ; position: relative; opacity: 0; transition: all 700ms ease-in-out; float: right; text-align: center;}
+#trophy {width: 200px; height: 200px; position: absolute; float: right;}
+#trophy img{width: 200px; height: 200px; position: absolute; float: right; top: 200px; left: 150px}
+#plane img {width: 200px; height: 200px; position: absolute; float: right; left: 1100px; bottom: -650px}
+
+#training {opacity: 1; transition: 1s ease-in-out; cursor: pointer; display: block}
+#explosion {opacity: 1; transition: 1s ease-in-out; cursor: pointer; display: block}
+#Kotoge {opacity: 1; transition: 1s ease-in-out; cursor: pointer; display: block}
+#whatarekamikazes {opacity: 1; transition: 1s ease-in-out; cursor: pointer; display: block}
+
+
+.image-caption h4 {; text-align: center; text-transform: uppercase; font-size: 22px; color: yellow;}
+.image-container1:hover  .image-caption {opacity: 1;}
+.image-container2:hover .image-caption {opacity: 1}
+.image-container3:hover .image-caption {opacity: 1}
+.image-container4:hover  .image-caption {opacity: 1} 
+
+#image-caption4:hover #steroids{opacity: .1}
+#training:hover {opacity: .1}
+.image-container4:hover #training{opacity: .1}
+.image-container3:hover #explosion {opacity: .1}
+#image-caption3:hover #explosion {opacity: .1}
+#explosion:hover {opacity: .1}
+
+.image-container2:hover #Kotoge {opacity: .1}
+#image-caption2:hover #Kotoge {opacity: .1}
+#Kotoge:hover {opacity: .2}
+.image-container2:hover #steroids {opacity: 0}
+.image-container2:hover #explosion {opacity: 0}
+#Kotoge:hover #steroids {opacity: 0}
+#image-caption2:hover #steroids {opacity:0}
+
+
+
+.image-container1:hover #whatarekamikazes {opacity: .1}
+#image-caption1:hover #whatarekamikazes {opacity: .1}
+#whatarekamikazes:hover {opacity: .1}
+
+#image-caption1 h4 {font-size: 22px; color: lawngreen;}
+#image-caption4 h4 {font-size: 20px}
+#image-caption2 h4 {color: paleturquoise; font-size: 27px}
+h2 {font-family: AllertaStencilRegular; }
+#mainbody h2 {text-align: center;}
+h4 {font-family: Roboto}
+#image-caption3 h4 {font-size: 18px}
+#image-caption4 h4 {font-size: 15px}
+
+#navbar {overflow: hidden;
+  background-color: darkgoldenrod; width: 1425px; margin-left: auto; margin-right: auto;}
+
+#navbar a {float: left;
+  font-size: 16px;
+  color: palegoldenrod;
+  padding: 15px 15px;}
+
+.dropdown .dropbtn { font-size: 16px; 
+  color: black;
+  padding: 15px 15px;
+  background-color: inherit;
+  font-family: inherit;}
+
+#navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: seagreen; font-size: 25px}
+
+.dropdown-content a { color: midnightblue;
+  padding: 12px 16px;
+  display: block;}
+
+.dropdown-content a:hover {
+  background-color: dimgrey;}
+
+.dropdown:hover .dropdown-content {
+  display: block;}
+
+.dropdown { float: left;
+  overflow: hidden;}
+
+.dropdown .dropbutton { font-size: 16px;  
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;}
+
+.dropdown-content {display: none;
+  position: absolute;
+  background-color: slategrey; min-width: 160px;}
+
+#footer {background-color: maroon; width: 1425px; margin-left: auto; margin-right: auto; text-align: center; font-family: AllertaStencilRegular; height: 20px; bottom: -20px}
+
+</style>
+
+<body> 
+<div id="main">
+<h1 style="color: gold;"> Kamikaze Pilots </h1>
+
+</div>
+
+
+<div id="navbar">
+	
+<div class="dropdown">
+	
+<button class="dropbutton"> Menu
+
+</button>
+
+<div class="dropdown-content">
+
+	<a href="kamikazepilots.html">Home</a>
+	<a href="kamikazepilots2.html">Surviving Pilots</a>
+	
+	
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<div id="mainbody">
+
+
+	<h2 style="color: ivory;"> Mouse over images to learn more about Kamikaze Attacks, Surviving Pilots and their Training</h2>
+
+<hr>
+
+<div id="image-container" class="image-container1">
+
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbERfW84FkpK1MNx908KsFSGwzDHriPT3Xc5hG-Bi8nbLws-2kq9xiYQu3Qv6FYUH_d0g&usqp=CAU" alt="Whatarekamikazes" id="whatarekamikazes">
+
+<div id="image-caption1" class="image-caption">
+	<p><h4>Kamikaze (divine wind or spirit wind), were a part of the Japanese Special Attack Units of military aviators who flew suicide attacks for the Empire of Japan against Allied naval vessels in the closing stages of the Pacific campaign of World War II, intending to destroy warships more effectively than with conventional air attacks. About 3,800 kamikaze pilots died during the war, and more than 7,000 naval personnel were killed by kamikaze attacks. </h4>
+
+<h4>The attacks began in October 1944, at a time when the war was looking increasingly bleak for the Japanese. They had lost several important battles, many of their best pilots had been killed, their aircraft were becoming outdated, and they had lost command of the air. Japan was losing pilots faster than it could train their replacements, and the nation's industrial capacity was diminishing relative to that of the Allies. These factors, along with Japan's unwillingness to surrender, led to the use of kamikaze tactics as Allied forces advanced towards the Japanese home islands.</h4>
+
+
+</div>
+</div>
+
+<div id="trophy">
+	
+	<img src="https://worldwarwings.com/wp-content/uploads/2015/08/kamikaze-interview-735x413.jpg" id="trophy" alt="trophy">
+
+</div>
+
+
+
+<div id="image-container" class="image-container2">
+
+	<img src="https://p.potaufeu.asahi.com/8792-p/picture/23013917/89ca9aa618f9a0e349a399e270c0c1d9.jpg" alt="Kotoge" id="Kotoge">
+
+	<div class="image-caption" id="image-caption2">
+		<h4> Kotoge was ordered to prepare for a suicide attack on Aug. 10, 1945, when he was 17. But the truck that was supposed to pick him up never came, and the war ended with Japans surrender five days later. Kotoge volunteered to join the former Imperial Japanese Navy when he was 15. He witnessed the dropping of an atomic bomb on Nagasaki on Aug. 9, 1945, from his barracks in the neighboring city of Isahaya, also in Nagasaki Prefecture. Other kamikaze pilot "survivors" can be found <a href="kamikazepilots2.html">Here</a> </h4>
+
+	</div>
+</div>
+
+<div id="plane">
+	
+	<img src="https://www.19fortyfive.com/wp-content/uploads/2021/12/Rocket-Kamikaze.jpg" id="plane" alt="plane">
+
+</div>
+
+<div id="image-container" class="image-container3">
+
+	<img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/USS_Bunker_Hill_hit_by_two_Kamikazes.jpg"  id="explosion" alt="explosion">
+
+	<div class="image-caption" id="image-caption3">
+
+	<h4> Kamikaze aircraft were essentially pilot-guided explosive missiles, purpose-built or converted from conventional aircraft. Pilots would attempt to crash their aircraft into enemy ships in what was called a "body attack" (tai-atari) in aircraft loaded with bombs, torpedoes and or other explosives. </h4> <h4> About 19% of kamikaze attacks were successful. The Japanese considered the goal of damaging or sinking large numbers of Allied ships to be a just reason for suicide attacks; kamikaze was more accurate than conventional attacks and often caused more damage. Some kamikazes were still able to hit their targets even after their aircraft had been crippled. </h4>
+		
+
+</div>
+
+	</div>
+	
+	<div id="image-container" class="image-container4">
+
+		<img id="training" src="https://www.histclo.com/imagef/date/2013/10/udw6s.jpg" alt="training">
+		
+		<div id="image-caption4" class="image-caption">
+
+			<h4> Tokkotai pilot training, as described by Takeo Kasuga, generally "consisted of incredibly strenuous training, coupled with cruel and torturous corporal punishment as a daily routine". The training, in theory, lasted for thirty days, but because of American raids and shortage of fuel it could last up to two months. </h4>
+
+<h4> Daikichi Irokawa, who trained at Tsuchiura Naval Air Base, recalled that he "was struck on the face so hard and frequently that [his] face was no longer recognizable". He also wrote: "I was hit so hard that I could no longer see and fell on the floor. The minute I got up, I was hit again by a club so that I would confess." This brutal "training" was justified by the idea that it would instil a "soldier's fighting spirit", but daily beatings and corporal punishment eliminated patriotism among many pilots. </h4>
+
+<h4> Pilots were given a manual that detailed how they were supposed to think, prepare, and attack. From this manual, pilots were told to "attain a high level of spiritual training", and to "keep their health in the very best condition". These instructions, among others, were meant to make pilots mentally ready to die. </h4>
+		
+
+
+	</div>
+
+
+</div>
+
+
+<div id="footer">
+
+Copyright 2022 Neal Sharma
+
+</div>
+
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
